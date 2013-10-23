@@ -1,9 +1,0 @@
-K 13
-svn:externals
-V 396
-JustepAppBridge.framework http://192.168.1.5/svn/X5/X5-SOURCE/ui/mobile-app/iphone/JustepX5/JustepAppBridge.framework
-Libraries http://192.168.1.5/svn/X5/X5-SOURCE/ui/mobile-app/iphone/JustepX5/Libraries
-JustepX5/Classes http://192.168.1.5/svn/X5/X5-SOURCE/ui/mobile-app/iphone/JustepX5/JustepX5/Classes
-JustepX5/www http://192.168.1.5/svn/X5/X5-SOURCE/ui/mobile-app/iphone/JustepX5/JustepX5/www
-
-END
