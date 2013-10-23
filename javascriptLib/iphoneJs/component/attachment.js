@@ -1,4 +1,4 @@
-/**
+﻿/**
  * 配合x5附件组件包装的插件
  */
 justepApp.addPlugin(function() {
