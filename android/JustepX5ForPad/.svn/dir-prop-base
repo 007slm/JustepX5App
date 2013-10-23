@@ -1,0 +1,16 @@
+K 13
+svn:externals
+V 399
+lib http://192.168.1.5/svn/X5/X5-SOURCE/ui/mobile-app/android/JustepX5/lib
+justepLib http://192.168.1.5/svn/X5/X5-SOURCE/ui/mobile-app/android/JustepX5/justepLib
+assets http://192.168.1.5/svn/X5/X5-SOURCE/ui/mobile-app/android/JustepX5/assets
+asmack http://192.168.1.5/svn/X5/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack
+src http://192.168.1.5/svn/X5/X5-SOURCE/ui/mobile-app/android/JustepX5/src
+
+K 10
+svn:ignore
+V 8
+bin
+gen
+
+END

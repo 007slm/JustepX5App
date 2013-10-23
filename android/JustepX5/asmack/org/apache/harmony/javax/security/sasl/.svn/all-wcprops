@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/apache/harmony/javax/security/sasl
+END
+SaslClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/apache/harmony/javax/security/sasl/SaslClient.java
+END
+SaslException.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/apache/harmony/javax/security/sasl/SaslException.java
+END
+SaslServerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/apache/harmony/javax/security/sasl/SaslServerFactory.java
+END
+Sasl.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/apache/harmony/javax/security/sasl/Sasl.java
+END
+AuthorizeCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/apache/harmony/javax/security/sasl/AuthorizeCallback.java
+END
+RealmChoiceCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/apache/harmony/javax/security/sasl/RealmChoiceCallback.java
+END
+SaslClientFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/apache/harmony/javax/security/sasl/SaslClientFactory.java
+END
+SaslServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/apache/harmony/javax/security/sasl/SaslServer.java
+END
+RealmCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/apache/harmony/javax/security/sasl/RealmCallback.java
+END
+AuthenticationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/apache/harmony/javax/security/sasl/AuthenticationException.java
+END

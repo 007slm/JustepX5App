@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/filter
+END
+PacketTypeFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/filter/PacketTypeFilter.java
+END
+IQTypeFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/filter/IQTypeFilter.java
+END
+NotFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/filter/NotFilter.java
+END
+OrFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/filter/OrFilter.java
+END
+ToContainsFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/filter/ToContainsFilter.java
+END
+AndFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/filter/AndFilter.java
+END
+FromContainsFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/filter/FromContainsFilter.java
+END
+PacketExtensionFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/filter/PacketExtensionFilter.java
+END
+PacketIDFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/filter/PacketIDFilter.java
+END
+MessageTypeFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/filter/MessageTypeFilter.java
+END
+PacketFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/filter/PacketFilter.java
+END
+ThreadFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/filter/ThreadFilter.java
+END
+FromMatchesFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/filter/FromMatchesFilter.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/filter/package.html
+END

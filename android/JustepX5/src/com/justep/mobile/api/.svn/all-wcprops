@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/X5/!svn/ver/20405/X5-SOURCE/ui/mobile-app/android/JustepX5/src/com/justep/mobile/api
+END
+Logger.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/X5/!svn/ver/20405/X5-SOURCE/ui/mobile-app/android/JustepX5/src/com/justep/mobile/api/Logger.java
+END
+PluginInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/X5/!svn/ver/20405/X5-SOURCE/ui/mobile-app/android/JustepX5/src/com/justep/mobile/api/PluginInterface.java
+END
+PluginAbstractImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/X5/!svn/ver/20405/X5-SOURCE/ui/mobile-app/android/JustepX5/src/com/justep/mobile/api/PluginAbstractImpl.java
+END
+CommandCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/X5/!svn/ver/20405/X5-SOURCE/ui/mobile-app/android/JustepX5/src/com/justep/mobile/api/CommandCallback.java
+END

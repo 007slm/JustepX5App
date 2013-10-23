@@ -1,0 +1,1087 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5402C71A16A68A4800B6F4DC /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5402C71916A68A4700B6F4DC /* AddressBook.framework */; };
+		5402C71C16A68A5500B6F4DC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5402C71B16A68A5300B6F4DC /* CoreLocation.framework */; };
+		5402C71E16A68A6100B6F4DC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5402C71D16A68A5F00B6F4DC /* AudioToolbox.framework */; };
+		5402C72016A68A6C00B6F4DC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5402C71F16A68A6B00B6F4DC /* CoreMedia.framework */; };
+		5402C72216A68A7800B6F4DC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5402C72116A68A7700B6F4DC /* AVFoundation.framework */; };
+		5402C72416A68A8500B6F4DC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5402C72316A68A8300B6F4DC /* MobileCoreServices.framework */; };
+		5402C72616A68A9100B6F4DC /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5402C72516A68A8F00B6F4DC /* AddressBookUI.framework */; };
+		54037665169A63D3008A708D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54037662169A63D2008A708D /* Default-568h@2x.png */; };
+		54037666169A63D3008A708D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 54037663169A63D2008A708D /* Default.png */; };
+		54037667169A63D3008A708D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54037664169A63D2008A708D /* Default@2x.png */; };
+		5403767A169A642F008A708D /* 320-480.png in Resources */ = {isa = PBXBuildFile; fileRef = 54037674169A642F008A708D /* 320-480.png */; };
+		5403767B169A642F008A708D /* 640-960.png in Resources */ = {isa = PBXBuildFile; fileRef = 54037675169A642F008A708D /* 640-960.png */; };
+		5403767C169A642F008A708D /* 640-1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 54037676169A642F008A708D /* 640-1136.png */; };
+		540376AE169A6651008A708D /* status-bar-pattern-black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54037690169A6651008A708D /* status-bar-pattern-black.jpg */; };
+		540376AF169A6651008A708D /* status-bar-pattern-black@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54037691169A6651008A708D /* status-bar-pattern-black@2x.jpg */; };
+		540376B0169A6651008A708D /* status-bar-pattern-default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54037692169A6651008A708D /* status-bar-pattern-default.jpg */; };
+		540376B1169A6651008A708D /* status-bar-pattern-default@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54037693169A6651008A708D /* status-bar-pattern-default@2x.jpg */; };
+		540376B2169A6651008A708D /* status-bar-progress.png in Resources */ = {isa = PBXBuildFile; fileRef = 54037694169A6651008A708D /* status-bar-progress.png */; };
+		540376B3169A6651008A708D /* status-bar-progress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54037695169A6651008A708D /* status-bar-progress@2x.png */; };
+		540376C1169A6BDC008A708D /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 540376BF169A6BDB008A708D /* Logo.png */; };
+		540376C2169A6BDC008A708D /* ShowToolbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 540376C0169A6BDB008A708D /* ShowToolbar.png */; };
+		540376C8169A7004008A708D /* ButtonDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 540376C5169A7002008A708D /* ButtonDown.png */; };
+		540376C9169A7004008A708D /* ButtonUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 540376C6169A7003008A708D /* ButtonUp.png */; };
+		540376CA169A7004008A708D /* Cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 540376C7169A7003008A708D /* Cancel.png */; };
+		541F847216D5F5F300F41418 /* JustepAppBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 541F847116D5F5F300F41418 /* JustepAppBridge.framework */; };
+		542B23D715F9C6D30085A8CB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542B23D515F9C6720085A8CB /* SystemConfiguration.framework */; };
+		54392B4816AFDA500041666E /* JustepRootController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54392B4516AFDA500041666E /* JustepRootController.xib */; };
+		54392B4916AFDA500041666E /* JustepRootController5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54392B4616AFDA500041666E /* JustepRootController5.xib */; };
+		54392B4F16AFDA7B0041666E /* JustepViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54392B4C16AFDA7B0041666E /* JustepViewController.xib */; };
+		54392B5016AFDA7B0041666E /* JustepViewController5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54392B4D16AFDA7B0041666E /* JustepViewController5.xib */; };
+		54392B5616AFDAC30041666E /* JustepSettingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54392B5316AFDAC30041666E /* JustepSettingController.xib */; };
+		54392B5716AFDAC30041666E /* JustepSettingController5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54392B5416AFDAC30041666E /* JustepSettingController5.xib */; };
+		54392B6616AFDB010041666E /* JustepUploader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54392B6316AFDB010041666E /* JustepUploader.xib */; };
+		54392B6716AFDB010041666E /* JustepUploader5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54392B6416AFDB010041666E /* JustepUploader5.xib */; };
+		54392B6D16AFDB1C0041666E /* JustepAttachmentController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54392B6A16AFDB1C0041666E /* JustepAttachmentController.xib */; };
+		54392B6E16AFDB1C0041666E /* JustepAttachmentController5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54392B6B16AFDB1C0041666E /* JustepAttachmentController5.xib */; };
+		54392B8C16AFE2910041666E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54816F1B15E21D6300631CAB /* main.m */; };
+		54392B8D16AFE2910041666E /* JustepAppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392AF816AFD7E30041666E /* JustepAppDelegate.h */; };
+		54392B8E16AFE2910041666E /* JustepAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392AF916AFD7E30041666E /* JustepAppDelegate.m */; };
+		54392B9916AFE2910041666E /* JustepAppSound.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B0A16AFD8620041666E /* JustepAppSound.h */; };
+		54392B9A16AFE2910041666E /* JustepAppSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B0B16AFD8620041666E /* JustepAppSound.m */; };
+		54392B9B16AFE2910041666E /* JustepAppGeolocation.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B0D16AFD8800041666E /* JustepAppGeolocation.h */; };
+		54392B9C16AFE2910041666E /* JustepAppGeolocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B0E16AFD8800041666E /* JustepAppGeolocation.m */; };
+		54392B9D16AFE2910041666E /* JustepAppFile.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B1016AFD89D0041666E /* JustepAppFile.h */; };
+		54392B9E16AFE2910041666E /* JustepAppFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B1116AFD89D0041666E /* JustepAppFile.m */; };
+		54392B9F16AFE2910041666E /* JustepAppContact.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B1316AFD8B40041666E /* JustepAppContact.h */; };
+		54392BA016AFE2910041666E /* JustepAppContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B1416AFD8B40041666E /* JustepAppContact.m */; };
+		54392BA116AFE2910041666E /* JustepAppContacts.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B1516AFD8B40041666E /* JustepAppContacts.h */; };
+		54392BA216AFE2910041666E /* JustepAppContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B1616AFD8B40041666E /* JustepAppContacts.m */; };
+		54392BA316AFE2910041666E /* JustepAppCamera.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B1916AFD8C60041666E /* JustepAppCamera.h */; };
+		54392BA416AFE2910041666E /* JustepAppCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B1A16AFD8C60041666E /* JustepAppCamera.m */; };
+		54392BA516AFE2910041666E /* JustepAppCapture.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B1C16AFD8EF0041666E /* JustepAppCapture.h */; };
+		54392BA616AFE2910041666E /* JustepAppCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B1D16AFD8EF0041666E /* JustepAppCapture.m */; };
+		54392BA716AFE2910041666E /* JustepAppCommandCallback.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B1F16AFD9020041666E /* JustepAppCommandCallback.h */; };
+		54392BA816AFE2910041666E /* JustepAppCommandCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B2016AFD9020041666E /* JustepAppCommandCallback.m */; };
+		54392BA916AFE2910041666E /* JustepAppBattery.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B2216AFD91B0041666E /* JustepAppBattery.h */; };
+		54392BAA16AFE2910041666E /* JustepAppBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B2316AFD91B0041666E /* JustepAppBattery.m */; };
+		54392BAB16AFE2910041666E /* JustepAppAccelerometer.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B2516AFD92B0041666E /* JustepAppAccelerometer.h */; };
+		54392BAC16AFE2910041666E /* JustepAppAccelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B2616AFD92B0041666E /* JustepAppAccelerometer.m */; };
+		54392BAD16AFE2910041666E /* JustepAppPlugin.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B2816AFD9480041666E /* JustepAppPlugin.h */; };
+		54392BAE16AFE2910041666E /* JustepAppPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B2916AFD9480041666E /* JustepAppPlugin.m */; };
+		54392BAF16AFE2910041666E /* JustepAppDevice.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B2B16AFD9590041666E /* JustepAppDevice.h */; };
+		54392BB016AFE2910041666E /* JustepAppDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B2C16AFD9590041666E /* JustepAppDevice.m */; };
+		54392BB116AFE2910041666E /* JustepAppLogger.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B2E16AFD96B0041666E /* JustepAppLogger.h */; };
+		54392BB216AFE2910041666E /* JustepAppLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B2F16AFD96B0041666E /* JustepAppLogger.m */; };
+		54392BB316AFE2910041666E /* JustepAppMap.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B3116AFD97D0041666E /* JustepAppMap.h */; };
+		54392BB416AFE2910041666E /* JustepAppMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B3216AFD97D0041666E /* JustepAppMap.m */; };
+		54392BB716AFE2910041666E /* JustepAppNetwork.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B3716AFD9FC0041666E /* JustepAppNetwork.h */; };
+		54392BB816AFE2910041666E /* JustepAppNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B3816AFD9FC0041666E /* JustepAppNetwork.m */; };
+		54392BB916AFE2910041666E /* JustepAppNotification.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B3A16AFDA0D0041666E /* JustepAppNotification.h */; };
+		54392BBA16AFE2910041666E /* JustepAppNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B3B16AFDA0D0041666E /* JustepAppNotification.m */; };
+		54392BBB16AFE2910041666E /* JustepAppCommand.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B3D16AFDA1E0041666E /* JustepAppCommand.h */; };
+		54392BBC16AFE2910041666E /* JustepAppCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B3E16AFDA1E0041666E /* JustepAppCommand.m */; };
+		54392BBD16AFE2910041666E /* JustepAppEvent.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B4016AFDA340041666E /* JustepAppEvent.h */; };
+		54392BBE16AFE2910041666E /* JustepAppEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B4116AFDA340041666E /* JustepAppEvent.m */; };
+		54392BBF16AFE2910041666E /* JustepRootController.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B4316AFDA500041666E /* JustepRootController.h */; };
+		54392BC016AFE2910041666E /* JustepRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B4416AFDA500041666E /* JustepRootController.m */; };
+		54392BC116AFE2910041666E /* JustepRootController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 54392B4516AFDA500041666E /* JustepRootController.xib */; };
+		54392BC216AFE2910041666E /* JustepRootController5.xib in Sources */ = {isa = PBXBuildFile; fileRef = 54392B4616AFDA500041666E /* JustepRootController5.xib */; };
+		54392BC316AFE2910041666E /* JustepViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B4A16AFDA7B0041666E /* JustepViewController.h */; };
+		54392BC416AFE2910041666E /* JustepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B4B16AFDA7B0041666E /* JustepViewController.m */; };
+		54392BC516AFE2910041666E /* JustepViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 54392B4C16AFDA7B0041666E /* JustepViewController.xib */; };
+		54392BC616AFE2910041666E /* JustepViewController5.xib in Sources */ = {isa = PBXBuildFile; fileRef = 54392B4D16AFDA7B0041666E /* JustepViewController5.xib */; };
+		54392BC716AFE2910041666E /* JustepApp.js in Sources */ = {isa = PBXBuildFile; fileRef = 54E860B316A6A2C700D6FE32 /* JustepApp.js */; };
+		54392BC816AFE2910041666E /* JustepX5-Prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = 54816F1A15E21D6300631CAB /* JustepX5-Prefix.pch */; };
+		54392BC916AFE2910041666E /* JustepSettingController.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B5116AFDAC30041666E /* JustepSettingController.h */; };
+		54392BCA16AFE2910041666E /* JustepSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B5216AFDAC30041666E /* JustepSettingController.m */; };
+		54392BCB16AFE2910041666E /* JustepSettingController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 54392B5316AFDAC30041666E /* JustepSettingController.xib */; };
+		54392BCC16AFE2910041666E /* JustepSettingController5.xib in Sources */ = {isa = PBXBuildFile; fileRef = 54392B5416AFDAC30041666E /* JustepSettingController5.xib */; };
+		54392BCD16AFE2910041666E /* JustepFile.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B5816AFDAE40041666E /* JustepFile.h */; };
+		54392BCE16AFE2910041666E /* JustepFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B5916AFDAE40041666E /* JustepFile.m */; };
+		54392BCF16AFE2910041666E /* JustepFileDetailController.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B5A16AFDAE40041666E /* JustepFileDetailController.h */; };
+		54392BD016AFE2910041666E /* JustepFileDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B5B16AFDAE40041666E /* JustepFileDetailController.m */; };
+		54392BD116AFE2910041666E /* JustepFinderController.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B5C16AFDAE40041666E /* JustepFinderController.h */; };
+		54392BD216AFE2910041666E /* JustepFinderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B5D16AFDAE40041666E /* JustepFinderController.m */; };
+		54392BD316AFE2910041666E /* JustepUploader.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B6116AFDB010041666E /* JustepUploader.h */; };
+		54392BD416AFE2910041666E /* JustepUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B6216AFDB010041666E /* JustepUploader.m */; };
+		54392BD516AFE2910041666E /* JustepUploader.xib in Sources */ = {isa = PBXBuildFile; fileRef = 54392B6316AFDB010041666E /* JustepUploader.xib */; };
+		54392BD616AFE2910041666E /* JustepUploader5.xib in Sources */ = {isa = PBXBuildFile; fileRef = 54392B6416AFDB010041666E /* JustepUploader5.xib */; };
+		54392BD716AFE2910041666E /* JustepAttachmentController.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B6816AFDB1C0041666E /* JustepAttachmentController.h */; };
+		54392BD816AFE2910041666E /* JustepAttachmentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B6916AFDB1C0041666E /* JustepAttachmentController.m */; };
+		54392BD916AFE2910041666E /* JustepAttachmentController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 54392B6A16AFDB1C0041666E /* JustepAttachmentController.xib */; };
+		54392BDA16AFE2910041666E /* JustepAttachmentController5.xib in Sources */ = {isa = PBXBuildFile; fileRef = 54392B6B16AFDB1C0041666E /* JustepAttachmentController5.xib */; };
+		54392BDB16AFE2910041666E /* JustepDownloadManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 54392B6F16AFDB2F0041666E /* JustepDownloadManager.h */; };
+		54392BDC16AFE2910041666E /* JustepDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392B7016AFDB2F0041666E /* JustepDownloadManager.m */; };
+		54392BDD16AFE2920041666E /* BWStatusBarOverlay.h in Sources */ = {isa = PBXBuildFile; fileRef = 5403768E169A6651008A708D /* BWStatusBarOverlay.h */; };
+		54392BDE16AFE2920041666E /* BWStatusBarOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 5403768F169A6651008A708D /* BWStatusBarOverlay.m */; };
+		54392BDF16AFE2920041666E /* status-bar-pattern-black.jpg in Sources */ = {isa = PBXBuildFile; fileRef = 54037690169A6651008A708D /* status-bar-pattern-black.jpg */; };
+		54392BE016AFE2920041666E /* status-bar-pattern-black@2x.jpg in Sources */ = {isa = PBXBuildFile; fileRef = 54037691169A6651008A708D /* status-bar-pattern-black@2x.jpg */; };
+		54392BE116AFE2920041666E /* status-bar-pattern-default.jpg in Sources */ = {isa = PBXBuildFile; fileRef = 54037692169A6651008A708D /* status-bar-pattern-default.jpg */; };
+		54392BE216AFE2920041666E /* status-bar-pattern-default@2x.jpg in Sources */ = {isa = PBXBuildFile; fileRef = 54037693169A6651008A708D /* status-bar-pattern-default@2x.jpg */; };
+		54392BE316AFE2920041666E /* status-bar-progress.png in Sources */ = {isa = PBXBuildFile; fileRef = 54037694169A6651008A708D /* status-bar-progress.png */; };
+		54392BE416AFE2920041666E /* status-bar-progress@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 54037695169A6651008A708D /* status-bar-progress@2x.png */; };
+		54392BE516AFE2920041666E /* JSONKit.h in Sources */ = {isa = PBXBuildFile; fileRef = 54AD1D7216A93ED900AAA942 /* JSONKit.h */; };
+		54392BE616AFE2920041666E /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AD1D7316A93ED900AAA942 /* JSONKit.m */; };
+		54392BE716AFE2920041666E /* JSON.h in Sources */ = {isa = PBXBuildFile; fileRef = 54037697169A6651008A708D /* JSON.h */; };
+		54392BE816AFE2920041666E /* NSObject+SBJSON.h in Sources */ = {isa = PBXBuildFile; fileRef = 54037698169A6651008A708D /* NSObject+SBJSON.h */; };
+		54392BE916AFE2920041666E /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 54037699169A6651008A708D /* NSObject+SBJSON.m */; };
+		54392BEA16AFE2920041666E /* NSString+SBJSON.h in Sources */ = {isa = PBXBuildFile; fileRef = 5403769A169A6651008A708D /* NSString+SBJSON.h */; };
+		54392BEB16AFE2920041666E /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5403769B169A6651008A708D /* NSString+SBJSON.m */; };
+		54392BEC16AFE2920041666E /* SBJsonBase.h in Sources */ = {isa = PBXBuildFile; fileRef = 5403769C169A6651008A708D /* SBJsonBase.h */; };
+		54392BED16AFE2920041666E /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5403769D169A6651008A708D /* SBJsonBase.m */; };
+		54392BEE16AFE2920041666E /* SBJsonParser.h in Sources */ = {isa = PBXBuildFile; fileRef = 5403769E169A6651008A708D /* SBJsonParser.h */; };
+		54392BEF16AFE2920041666E /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5403769F169A6651008A708D /* SBJsonParser.m */; };
+		54392BF016AFE2920041666E /* SBJsonWriter.h in Sources */ = {isa = PBXBuildFile; fileRef = 540376A0169A6651008A708D /* SBJsonWriter.h */; };
+		54392BF116AFE2920041666E /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 540376A1169A6651008A708D /* SBJsonWriter.m */; };
+		54392BF216AFE2920041666E /* JustepWebView.h in Sources */ = {isa = PBXBuildFile; fileRef = 540376A5169A6651008A708D /* JustepWebView.h */; };
+		54392BF316AFE2920041666E /* JustepWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 540376A6169A6651008A708D /* JustepWebView.m */; };
+		54392BF416AFE2920041666E /* MBProgressHUD.h in Sources */ = {isa = PBXBuildFile; fileRef = 540376A8169A6651008A708D /* MBProgressHUD.h */; };
+		54392BF516AFE2920041666E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 540376A9169A6651008A708D /* MBProgressHUD.m */; };
+		54392BFD16AFE5E80041666E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 54392BFC16AFE5E80041666E /* Reachability.m */; };
+		54392BFF16B112EF0041666E /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 54392BFE16B112EF0041666E /* beep.wav */; };
+		54398E70157DDE8F0071274F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54398E6F157DDE8F0071274F /* UIKit.framework */; };
+		54398E72157DDE8F0071274F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54398E71157DDE8F0071274F /* Foundation.framework */; };
+		54398E74157DDE8F0071274F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54398E73157DDE8F0071274F /* CoreGraphics.framework */; };
+		548802641581F7F700463A53 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548802631581F7F700463A53 /* QuartzCore.framework */; };
+		548F89C8158094D90034CBFD /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 548F89C7158094D90034CBFD /* Settings.bundle */; };
+		54E860B516A6A52200D6FE32 /* JustepApp.js in Resources */ = {isa = PBXBuildFile; fileRef = 54E860B316A6A2C700D6FE32 /* JustepApp.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5402C71916A68A4700B6F4DC /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		5402C71B16A68A5300B6F4DC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5402C71D16A68A5F00B6F4DC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5402C71F16A68A6B00B6F4DC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		5402C72116A68A7700B6F4DC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5402C72316A68A8300B6F4DC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		5402C72516A68A8F00B6F4DC /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		54037662169A63D2008A708D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "JustepX5/Default-568h@2x.png"; sourceTree = "<group>"; };
+		54037663169A63D2008A708D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = JustepX5/Default.png; sourceTree = "<group>"; };
+		54037664169A63D2008A708D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "JustepX5/Default@2x.png"; sourceTree = "<group>"; };
+		54037674169A642F008A708D /* 320-480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "320-480.png"; path = "JustepX5/320-480.png"; sourceTree = "<group>"; };
+		54037675169A642F008A708D /* 640-960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "640-960.png"; path = "JustepX5/640-960.png"; sourceTree = "<group>"; };
+		54037676169A642F008A708D /* 640-1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "640-1136.png"; path = "JustepX5/640-1136.png"; sourceTree = "<group>"; };
+		5403768E169A6651008A708D /* BWStatusBarOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWStatusBarOverlay.h; sourceTree = "<group>"; };
+		5403768F169A6651008A708D /* BWStatusBarOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BWStatusBarOverlay.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		54037690169A6651008A708D /* status-bar-pattern-black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "status-bar-pattern-black.jpg"; sourceTree = "<group>"; };
+		54037691169A6651008A708D /* status-bar-pattern-black@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "status-bar-pattern-black@2x.jpg"; sourceTree = "<group>"; };
+		54037692169A6651008A708D /* status-bar-pattern-default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "status-bar-pattern-default.jpg"; sourceTree = "<group>"; };
+		54037693169A6651008A708D /* status-bar-pattern-default@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "status-bar-pattern-default@2x.jpg"; sourceTree = "<group>"; };
+		54037694169A6651008A708D /* status-bar-progress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "status-bar-progress.png"; sourceTree = "<group>"; };
+		54037695169A6651008A708D /* status-bar-progress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "status-bar-progress@2x.png"; sourceTree = "<group>"; };
+		54037697169A6651008A708D /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		54037698169A6651008A708D /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		54037699169A6651008A708D /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		5403769A169A6651008A708D /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		5403769B169A6651008A708D /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		5403769C169A6651008A708D /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		5403769D169A6651008A708D /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		5403769E169A6651008A708D /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		5403769F169A6651008A708D /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		540376A0169A6651008A708D /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		540376A1169A6651008A708D /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		540376A5169A6651008A708D /* JustepWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepWebView.h; path = Libraries/Justep/JustepWebView.h; sourceTree = "<group>"; };
+		540376A6169A6651008A708D /* JustepWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepWebView.m; path = Libraries/Justep/JustepWebView.m; sourceTree = "<group>"; };
+		540376A8169A6651008A708D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		540376A9169A6651008A708D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		540376BF169A6BDB008A708D /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo.png; path = JustepX5/Logo.png; sourceTree = "<group>"; };
+		540376C0169A6BDB008A708D /* ShowToolbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ShowToolbar.png; path = JustepX5/ShowToolbar.png; sourceTree = "<group>"; };
+		540376C5169A7002008A708D /* ButtonDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonDown.png; path = JustepX5/ButtonDown.png; sourceTree = "<group>"; };
+		540376C6169A7003008A708D /* ButtonUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonUp.png; path = JustepX5/ButtonUp.png; sourceTree = "<group>"; };
+		540376C7169A7003008A708D /* Cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cancel.png; path = JustepX5/Cancel.png; sourceTree = "<group>"; };
+		541F847116D5F5F300F41418 /* JustepAppBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JustepAppBridge.framework; sourceTree = "<group>"; };
+		542B23D515F9C6720085A8CB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		54392AF816AFD7E30041666E /* JustepAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepAppDelegate.h; path = JustepX5/Classes/JustepAppDelegate.h; sourceTree = "<group>"; };
+		54392AF916AFD7E30041666E /* JustepAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepAppDelegate.m; path = JustepX5/Classes/JustepAppDelegate.m; sourceTree = "<group>"; };
+		54392B0A16AFD8620041666E /* JustepAppSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepAppSound.h; path = JustepX5/Classes/JustepAppSound.h; sourceTree = "<group>"; };
+		54392B0B16AFD8620041666E /* JustepAppSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepAppSound.m; path = JustepX5/Classes/JustepAppSound.m; sourceTree = "<group>"; };
+		54392B0D16AFD8800041666E /* JustepAppGeolocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepAppGeolocation.h; path = JustepX5/Classes/JustepAppGeolocation.h; sourceTree = "<group>"; };
+		54392B0E16AFD8800041666E /* JustepAppGeolocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepAppGeolocation.m; path = JustepX5/Classes/JustepAppGeolocation.m; sourceTree = "<group>"; };
+		54392B1016AFD89D0041666E /* JustepAppFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepAppFile.h; path = JustepX5/Classes/JustepAppFile.h; sourceTree = "<group>"; };
+		54392B1116AFD89D0041666E /* JustepAppFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepAppFile.m; path = JustepX5/Classes/JustepAppFile.m; sourceTree = "<group>"; };
+		54392B1316AFD8B40041666E /* JustepAppContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepAppContact.h; path = JustepX5/Classes/JustepAppContact.h; sourceTree = "<group>"; };
+		54392B1416AFD8B40041666E /* JustepAppContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepAppContact.m; path = JustepX5/Classes/JustepAppContact.m; sourceTree = "<group>"; };
+		54392B1516AFD8B40041666E /* JustepAppContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepAppContacts.h; path = JustepX5/Classes/JustepAppContacts.h; sourceTree = "<group>"; };
+		54392B1616AFD8B40041666E /* JustepAppContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepAppContacts.m; path = JustepX5/Classes/JustepAppContacts.m; sourceTree = "<group>"; };
+		54392B1916AFD8C60041666E /* JustepAppCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepAppCamera.h; path = JustepX5/Classes/JustepAppCamera.h; sourceTree = "<group>"; };
+		54392B1A16AFD8C60041666E /* JustepAppCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepAppCamera.m; path = JustepX5/Classes/JustepAppCamera.m; sourceTree = "<group>"; };
+		54392B1C16AFD8EF0041666E /* JustepAppCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepAppCapture.h; path = JustepX5/Classes/JustepAppCapture.h; sourceTree = "<group>"; };
+		54392B1D16AFD8EF0041666E /* JustepAppCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepAppCapture.m; path = JustepX5/Classes/JustepAppCapture.m; sourceTree = "<group>"; };
+		54392B1F16AFD9020041666E /* JustepAppCommandCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepAppCommandCallback.h; path = JustepX5/Classes/JustepAppCommandCallback.h; sourceTree = "<group>"; };
+		54392B2016AFD9020041666E /* JustepAppCommandCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepAppCommandCallback.m; path = JustepX5/Classes/JustepAppCommandCallback.m; sourceTree = "<group>"; };
+		54392B2216AFD91B0041666E /* JustepAppBattery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepAppBattery.h; path = JustepX5/Classes/JustepAppBattery.h; sourceTree = "<group>"; };
+		54392B2316AFD91B0041666E /* JustepAppBattery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepAppBattery.m; path = JustepX5/Classes/JustepAppBattery.m; sourceTree = "<group>"; };
+		54392B2516AFD92B0041666E /* JustepAppAccelerometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepAppAccelerometer.h; path = JustepX5/Classes/JustepAppAccelerometer.h; sourceTree = "<group>"; };
+		54392B2616AFD92B0041666E /* JustepAppAccelerometer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepAppAccelerometer.m; path = JustepX5/Classes/JustepAppAccelerometer.m; sourceTree = "<group>"; };
+		54392B2816AFD9480041666E /* JustepAppPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepAppPlugin.h; path = JustepX5/Classes/JustepAppPlugin.h; sourceTree = "<group>"; };
+		54392B2916AFD9480041666E /* JustepAppPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepAppPlugin.m; path = JustepX5/Classes/JustepAppPlugin.m; sourceTree = "<group>"; };
+		54392B2B16AFD9590041666E /* JustepAppDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepAppDevice.h; path = JustepX5/Classes/JustepAppDevice.h; sourceTree = "<group>"; };
+		54392B2C16AFD9590041666E /* JustepAppDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepAppDevice.m; path = JustepX5/Classes/JustepAppDevice.m; sourceTree = "<group>"; };
+		54392B2E16AFD96B0041666E /* JustepAppLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepAppLogger.h; path = JustepX5/Classes/JustepAppLogger.h; sourceTree = "<group>"; };
+		54392B2F16AFD96B0041666E /* JustepAppLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepAppLogger.m; path = JustepX5/Classes/JustepAppLogger.m; sourceTree = "<group>"; };
+		54392B3116AFD97D0041666E /* JustepAppMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepAppMap.h; path = JustepX5/Classes/JustepAppMap.h; sourceTree = "<group>"; };
+		54392B3216AFD97D0041666E /* JustepAppMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepAppMap.m; path = JustepX5/Classes/JustepAppMap.m; sourceTree = "<group>"; };
+		54392B3716AFD9FC0041666E /* JustepAppNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepAppNetwork.h; path = JustepX5/Classes/JustepAppNetwork.h; sourceTree = "<group>"; };
+		54392B3816AFD9FC0041666E /* JustepAppNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepAppNetwork.m; path = JustepX5/Classes/JustepAppNetwork.m; sourceTree = "<group>"; };
+		54392B3A16AFDA0D0041666E /* JustepAppNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepAppNotification.h; path = JustepX5/Classes/JustepAppNotification.h; sourceTree = "<group>"; };
+		54392B3B16AFDA0D0041666E /* JustepAppNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepAppNotification.m; path = JustepX5/Classes/JustepAppNotification.m; sourceTree = "<group>"; };
+		54392B3D16AFDA1E0041666E /* JustepAppCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepAppCommand.h; path = JustepX5/Classes/JustepAppCommand.h; sourceTree = "<group>"; };
+		54392B3E16AFDA1E0041666E /* JustepAppCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepAppCommand.m; path = JustepX5/Classes/JustepAppCommand.m; sourceTree = "<group>"; };
+		54392B4016AFDA340041666E /* JustepAppEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepAppEvent.h; path = JustepX5/Classes/JustepAppEvent.h; sourceTree = "<group>"; };
+		54392B4116AFDA340041666E /* JustepAppEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepAppEvent.m; path = JustepX5/Classes/JustepAppEvent.m; sourceTree = "<group>"; };
+		54392B4316AFDA500041666E /* JustepRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepRootController.h; path = JustepX5/Classes/JustepRootController.h; sourceTree = "<group>"; };
+		54392B4416AFDA500041666E /* JustepRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepRootController.m; path = JustepX5/Classes/JustepRootController.m; sourceTree = "<group>"; };
+		54392B4516AFDA500041666E /* JustepRootController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JustepRootController.xib; path = JustepX5/Classes/JustepRootController.xib; sourceTree = "<group>"; };
+		54392B4616AFDA500041666E /* JustepRootController5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JustepRootController5.xib; path = JustepX5/Classes/JustepRootController5.xib; sourceTree = "<group>"; };
+		54392B4A16AFDA7B0041666E /* JustepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepViewController.h; path = Classes/JustepViewController.h; sourceTree = "<group>"; };
+		54392B4B16AFDA7B0041666E /* JustepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepViewController.m; path = Classes/JustepViewController.m; sourceTree = "<group>"; };
+		54392B4C16AFDA7B0041666E /* JustepViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JustepViewController.xib; path = Classes/JustepViewController.xib; sourceTree = "<group>"; };
+		54392B4D16AFDA7B0041666E /* JustepViewController5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JustepViewController5.xib; path = Classes/JustepViewController5.xib; sourceTree = "<group>"; };
+		54392B5116AFDAC30041666E /* JustepSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepSettingController.h; path = JustepX5/Classes/JustepSettingController.h; sourceTree = "<group>"; };
+		54392B5216AFDAC30041666E /* JustepSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepSettingController.m; path = JustepX5/Classes/JustepSettingController.m; sourceTree = "<group>"; };
+		54392B5316AFDAC30041666E /* JustepSettingController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JustepSettingController.xib; path = JustepX5/Classes/JustepSettingController.xib; sourceTree = "<group>"; };
+		54392B5416AFDAC30041666E /* JustepSettingController5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JustepSettingController5.xib; path = JustepX5/Classes/JustepSettingController5.xib; sourceTree = "<group>"; };
+		54392B5816AFDAE40041666E /* JustepFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepFile.h; path = JustepX5/Classes/JustepFile.h; sourceTree = "<group>"; };
+		54392B5916AFDAE40041666E /* JustepFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepFile.m; path = JustepX5/Classes/JustepFile.m; sourceTree = "<group>"; };
+		54392B5A16AFDAE40041666E /* JustepFileDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepFileDetailController.h; path = JustepX5/Classes/JustepFileDetailController.h; sourceTree = "<group>"; };
+		54392B5B16AFDAE40041666E /* JustepFileDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepFileDetailController.m; path = JustepX5/Classes/JustepFileDetailController.m; sourceTree = "<group>"; };
+		54392B5C16AFDAE40041666E /* JustepFinderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepFinderController.h; path = JustepX5/Classes/JustepFinderController.h; sourceTree = "<group>"; };
+		54392B5D16AFDAE40041666E /* JustepFinderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepFinderController.m; path = JustepX5/Classes/JustepFinderController.m; sourceTree = "<group>"; };
+		54392B6116AFDB010041666E /* JustepUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepUploader.h; path = JustepX5/Classes/JustepUploader.h; sourceTree = "<group>"; };
+		54392B6216AFDB010041666E /* JustepUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepUploader.m; path = JustepX5/Classes/JustepUploader.m; sourceTree = "<group>"; };
+		54392B6316AFDB010041666E /* JustepUploader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JustepUploader.xib; path = JustepX5/Classes/JustepUploader.xib; sourceTree = "<group>"; };
+		54392B6416AFDB010041666E /* JustepUploader5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JustepUploader5.xib; path = JustepX5/Classes/JustepUploader5.xib; sourceTree = "<group>"; };
+		54392B6816AFDB1C0041666E /* JustepAttachmentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepAttachmentController.h; path = JustepX5/Classes/JustepAttachmentController.h; sourceTree = "<group>"; };
+		54392B6916AFDB1C0041666E /* JustepAttachmentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepAttachmentController.m; path = JustepX5/Classes/JustepAttachmentController.m; sourceTree = "<group>"; };
+		54392B6A16AFDB1C0041666E /* JustepAttachmentController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JustepAttachmentController.xib; path = JustepX5/Classes/JustepAttachmentController.xib; sourceTree = "<group>"; };
+		54392B6B16AFDB1C0041666E /* JustepAttachmentController5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JustepAttachmentController5.xib; path = JustepX5/Classes/JustepAttachmentController5.xib; sourceTree = "<group>"; };
+		54392B6F16AFDB2F0041666E /* JustepDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustepDownloadManager.h; path = JustepX5/Classes/JustepDownloadManager.h; sourceTree = "<group>"; };
+		54392B7016AFDB2F0041666E /* JustepDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustepDownloadManager.m; path = JustepX5/Classes/JustepDownloadManager.m; sourceTree = "<group>"; };
+		54392BFB16AFE5E80041666E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		54392BFC16AFE5E80041666E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		54392BFE16B112EF0041666E /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = beep.wav; path = JustepX5/beep.wav; sourceTree = "<group>"; };
+		54398E6B157DDE8F0071274F /* JustepX5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustepX5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54398E6F157DDE8F0071274F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		54398E71157DDE8F0071274F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		54398E73157DDE8F0071274F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		54816F1A15E21D6300631CAB /* JustepX5-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JustepX5-Prefix.pch"; sourceTree = "<group>"; };
+		54816F1B15E21D6300631CAB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = JustepX5/main.m; sourceTree = "<group>"; };
+		548802631581F7F700463A53 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		548F89C7158094D90034CBFD /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		54AD1D7216A93ED900AAA942 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		54AD1D7316A93ED900AAA942 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		54E860B316A6A2C700D6FE32 /* JustepApp.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JustepApp.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54398E68157DDE8F0071274F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5402C72616A68A9100B6F4DC /* AddressBookUI.framework in Frameworks */,
+				5402C72416A68A8500B6F4DC /* MobileCoreServices.framework in Frameworks */,
+				5402C72216A68A7800B6F4DC /* AVFoundation.framework in Frameworks */,
+				5402C72016A68A6C00B6F4DC /* CoreMedia.framework in Frameworks */,
+				5402C71E16A68A6100B6F4DC /* AudioToolbox.framework in Frameworks */,
+				5402C71C16A68A5500B6F4DC /* CoreLocation.framework in Frameworks */,
+				5402C71A16A68A4800B6F4DC /* AddressBook.framework in Frameworks */,
+				542B23D715F9C6D30085A8CB /* SystemConfiguration.framework in Frameworks */,
+				548802641581F7F700463A53 /* QuartzCore.framework in Frameworks */,
+				54398E70157DDE8F0071274F /* UIKit.framework in Frameworks */,
+				54398E72157DDE8F0071274F /* Foundation.framework in Frameworks */,
+				54398E74157DDE8F0071274F /* CoreGraphics.framework in Frameworks */,
+				541F847216D5F5F300F41418 /* JustepAppBridge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5402C5ED16A4093A00B6F4DC /* JustepAppCommand */ = {
+			isa = PBXGroup;
+			children = (
+				54392B3D16AFDA1E0041666E /* JustepAppCommand.h */,
+				54392B3E16AFDA1E0041666E /* JustepAppCommand.m */,
+			);
+			name = JustepAppCommand;
+			sourceTree = "<group>";
+		};
+		5402C5EF16A4095500B6F4DC /* JustepAppNotification */ = {
+			isa = PBXGroup;
+			children = (
+				54392B3A16AFDA0D0041666E /* JustepAppNotification.h */,
+				54392B3B16AFDA0D0041666E /* JustepAppNotification.m */,
+			);
+			name = JustepAppNotification;
+			sourceTree = "<group>";
+		};
+		5402C5F016A4096000B6F4DC /* JustepAppNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				54392B3716AFD9FC0041666E /* JustepAppNetwork.h */,
+				54392B3816AFD9FC0041666E /* JustepAppNetwork.m */,
+			);
+			name = JustepAppNetWork;
+			sourceTree = "<group>";
+		};
+		5402C5F216A4097E00B6F4DC /* JustepAppMap */ = {
+			isa = PBXGroup;
+			children = (
+				54392B3116AFD97D0041666E /* JustepAppMap.h */,
+				54392B3216AFD97D0041666E /* JustepAppMap.m */,
+			);
+			name = JustepAppMap;
+			sourceTree = "<group>";
+		};
+		5402C5F316A4098600B6F4DC /* JustepAppLogger */ = {
+			isa = PBXGroup;
+			children = (
+				54392B2E16AFD96B0041666E /* JustepAppLogger.h */,
+				54392B2F16AFD96B0041666E /* JustepAppLogger.m */,
+			);
+			name = JustepAppLogger;
+			sourceTree = "<group>";
+		};
+		5402C5F516A409A000B6F4DC /* JustepAppDevice */ = {
+			isa = PBXGroup;
+			children = (
+				54392B2B16AFD9590041666E /* JustepAppDevice.h */,
+				54392B2C16AFD9590041666E /* JustepAppDevice.m */,
+			);
+			name = JustepAppDevice;
+			sourceTree = "<group>";
+		};
+		5402C5F616A409A800B6F4DC /* JustepAppPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				54392B2816AFD9480041666E /* JustepAppPlugin.h */,
+				54392B2916AFD9480041666E /* JustepAppPlugin.m */,
+			);
+			name = JustepAppPlugin;
+			sourceTree = "<group>";
+		};
+		540376221697F389008A708D /* JustepX5 */ = {
+			isa = PBXGroup;
+			children = (
+				54392AF716AFD7AC0041666E /* www */,
+				5403762B1697F4BF008A708D /* Supporting Files */,
+				5403762A1697F446008A708D /* Graphics */,
+				540376231697F394008A708D /* Classes */,
+			);
+			name = JustepX5;
+			sourceTree = "<group>";
+		};
+		540376231697F394008A708D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				54816F1B15E21D6300631CAB /* main.m */,
+				54392AF816AFD7E30041666E /* JustepAppDelegate.h */,
+				54392AF916AFD7E30041666E /* JustepAppDelegate.m */,
+				54E860B916A7FCDF00D6FE32 /* Extends */,
+				540376271697F405008A708D /* Utils */,
+				540376251697F3D0008A708D /* UI */,
+				540376241697F3A8008A708D /* Components */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		540376241697F3A8008A708D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				54CDD0C416031A8F003ECFF7 /* JustepFinder */,
+				54CDD0D91608242E003ECFF7 /* JustepUploader */,
+				54CDD0DB16082456003ECFF7 /* JustepAttachmentBrowser */,
+				54CDD0DE160824D7003ECFF7 /* JustepDownloadManager */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		540376251697F3D0008A708D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5403762C1697F546008A708D /* JustepX5RootController */,
+				54398E75157DDE8F0071274F /* JustepX5PortalController */,
+				54CDD0DD160824A2003ECFF7 /* JustepSettingController */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		540376271697F405008A708D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				54AD1DDF16AFB0CB00AAA942 /* JustepAppSound */,
+				54AD1DDE16AFB0BC00AAA942 /* JustepAppGeolocation */,
+				54AD1DDD16AFB09000AAA942 /* JustepAppFile */,
+				54AD1DDC16AFB07400AAA942 /* JustepAppContact */,
+				54AD1DDB16AFB06700AAA942 /* JustepAppCamera */,
+				54AD1DDA16AFB05B00AAA942 /* JustepAppCapture */,
+				54AD1DD716AE590500AAA942 /* JustepAppCommandCallback */,
+				54AD1DD616AE454200AAA942 /* JustepAppBattery */,
+				54AD1DD516AE432D00AAA942 /* JustepAppAccelerometer */,
+				5402C5F616A409A800B6F4DC /* JustepAppPlugin */,
+				5402C5F516A409A000B6F4DC /* JustepAppDevice */,
+				5402C5F316A4098600B6F4DC /* JustepAppLogger */,
+				5402C5F216A4097E00B6F4DC /* JustepAppMap */,
+				5402C5F016A4096000B6F4DC /* JustepAppNetWork */,
+				5402C5EF16A4095500B6F4DC /* JustepAppNotification */,
+				5402C5ED16A4093A00B6F4DC /* JustepAppCommand */,
+				54CDD0DC1608248C003ECFF7 /* JustepAppEvent */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		5403762A1697F446008A708D /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				54392BFE16B112EF0041666E /* beep.wav */,
+				540376C5169A7002008A708D /* ButtonDown.png */,
+				540376C6169A7003008A708D /* ButtonUp.png */,
+				540376C7169A7003008A708D /* Cancel.png */,
+				540376BF169A6BDB008A708D /* Logo.png */,
+				540376C0169A6BDB008A708D /* ShowToolbar.png */,
+				54037674169A642F008A708D /* 320-480.png */,
+				54037675169A642F008A708D /* 640-960.png */,
+				54037676169A642F008A708D /* 640-1136.png */,
+				54037662169A63D2008A708D /* Default-568h@2x.png */,
+				54037663169A63D2008A708D /* Default.png */,
+				54037664169A63D2008A708D /* Default@2x.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		5403762B1697F4BF008A708D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				548F89C7158094D90034CBFD /* Settings.bundle */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5403762C1697F546008A708D /* JustepX5RootController */ = {
+			isa = PBXGroup;
+			children = (
+				54392B4316AFDA500041666E /* JustepRootController.h */,
+				54392B4416AFDA500041666E /* JustepRootController.m */,
+				54392B4516AFDA500041666E /* JustepRootController.xib */,
+				54392B4616AFDA500041666E /* JustepRootController5.xib */,
+			);
+			name = JustepX5RootController;
+			sourceTree = "<group>";
+		};
+		54037630169A637A008A708D /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				5403768D169A6651008A708D /* BWStatusBarOverlay */,
+				54037696169A6651008A708D /* JSON */,
+				540376A7169A6651008A708D /* MBProgressHUD */,
+				540376AA169A6651008A708D /* Reachability */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		5403768D169A6651008A708D /* BWStatusBarOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				5403768E169A6651008A708D /* BWStatusBarOverlay.h */,
+				5403768F169A6651008A708D /* BWStatusBarOverlay.m */,
+				54037690169A6651008A708D /* status-bar-pattern-black.jpg */,
+				54037691169A6651008A708D /* status-bar-pattern-black@2x.jpg */,
+				54037692169A6651008A708D /* status-bar-pattern-default.jpg */,
+				54037693169A6651008A708D /* status-bar-pattern-default@2x.jpg */,
+				54037694169A6651008A708D /* status-bar-progress.png */,
+				54037695169A6651008A708D /* status-bar-progress@2x.png */,
+			);
+			name = BWStatusBarOverlay;
+			path = Libraries/BWStatusBarOverlay;
+			sourceTree = "<group>";
+		};
+		54037696169A6651008A708D /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				54AD1D7216A93ED900AAA942 /* JSONKit.h */,
+				54AD1D7316A93ED900AAA942 /* JSONKit.m */,
+				54037697169A6651008A708D /* JSON.h */,
+				54037698169A6651008A708D /* NSObject+SBJSON.h */,
+				54037699169A6651008A708D /* NSObject+SBJSON.m */,
+				5403769A169A6651008A708D /* NSString+SBJSON.h */,
+				5403769B169A6651008A708D /* NSString+SBJSON.m */,
+				5403769C169A6651008A708D /* SBJsonBase.h */,
+				5403769D169A6651008A708D /* SBJsonBase.m */,
+				5403769E169A6651008A708D /* SBJsonParser.h */,
+				5403769F169A6651008A708D /* SBJsonParser.m */,
+				540376A0169A6651008A708D /* SBJsonWriter.h */,
+				540376A1169A6651008A708D /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			path = Libraries/JSON;
+			sourceTree = "<group>";
+		};
+		540376A7169A6651008A708D /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				540376A8169A6651008A708D /* MBProgressHUD.h */,
+				540376A9169A6651008A708D /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			path = Libraries/MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		540376AA169A6651008A708D /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				54392BFB16AFE5E80041666E /* Reachability.h */,
+				54392BFC16AFE5E80041666E /* Reachability.m */,
+			);
+			name = Reachability;
+			path = Libraries/Reachability;
+			sourceTree = "<group>";
+		};
+		54392AF716AFD7AC0041666E /* www */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = www;
+			path = JustepX5/www;
+			sourceTree = "<group>";
+		};
+		54398E60157DDE8F0071274F = {
+			isa = PBXGroup;
+			children = (
+				540376221697F389008A708D /* JustepX5 */,
+				54037630169A637A008A708D /* Libraries */,
+				54398E6E157DDE8F0071274F /* Frameworks */,
+				54398E6C157DDE8F0071274F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54398E6C157DDE8F0071274F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54398E6B157DDE8F0071274F /* JustepX5.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54398E6E157DDE8F0071274F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				541F847116D5F5F300F41418 /* JustepAppBridge.framework */,
+				5402C71916A68A4700B6F4DC /* AddressBook.framework */,
+				5402C71B16A68A5300B6F4DC /* CoreLocation.framework */,
+				5402C71D16A68A5F00B6F4DC /* AudioToolbox.framework */,
+				5402C71F16A68A6B00B6F4DC /* CoreMedia.framework */,
+				5402C72116A68A7700B6F4DC /* AVFoundation.framework */,
+				5402C72316A68A8300B6F4DC /* MobileCoreServices.framework */,
+				5402C72516A68A8F00B6F4DC /* AddressBookUI.framework */,
+				542B23D515F9C6720085A8CB /* SystemConfiguration.framework */,
+				548802631581F7F700463A53 /* QuartzCore.framework */,
+				54398E6F157DDE8F0071274F /* UIKit.framework */,
+				54398E71157DDE8F0071274F /* Foundation.framework */,
+				54398E73157DDE8F0071274F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54398E75157DDE8F0071274F /* JustepX5PortalController */ = {
+			isa = PBXGroup;
+			children = (
+				54392B4A16AFDA7B0041666E /* JustepViewController.h */,
+				54392B4B16AFDA7B0041666E /* JustepViewController.m */,
+				54392B4C16AFDA7B0041666E /* JustepViewController.xib */,
+				54392B4D16AFDA7B0041666E /* JustepViewController5.xib */,
+				54E860B316A6A2C700D6FE32 /* JustepApp.js */,
+				54816F1A15E21D6300631CAB /* JustepX5-Prefix.pch */,
+			);
+			name = JustepX5PortalController;
+			path = JustepX5;
+			sourceTree = "<group>";
+		};
+		54AD1DD516AE432D00AAA942 /* JustepAppAccelerometer */ = {
+			isa = PBXGroup;
+			children = (
+				54392B2516AFD92B0041666E /* JustepAppAccelerometer.h */,
+				54392B2616AFD92B0041666E /* JustepAppAccelerometer.m */,
+			);
+			name = JustepAppAccelerometer;
+			sourceTree = "<group>";
+		};
+		54AD1DD616AE454200AAA942 /* JustepAppBattery */ = {
+			isa = PBXGroup;
+			children = (
+				54392B2216AFD91B0041666E /* JustepAppBattery.h */,
+				54392B2316AFD91B0041666E /* JustepAppBattery.m */,
+			);
+			name = JustepAppBattery;
+			sourceTree = "<group>";
+		};
+		54AD1DD716AE590500AAA942 /* JustepAppCommandCallback */ = {
+			isa = PBXGroup;
+			children = (
+				54392B1F16AFD9020041666E /* JustepAppCommandCallback.h */,
+				54392B2016AFD9020041666E /* JustepAppCommandCallback.m */,
+			);
+			name = JustepAppCommandCallback;
+			sourceTree = "<group>";
+		};
+		54AD1DDA16AFB05B00AAA942 /* JustepAppCapture */ = {
+			isa = PBXGroup;
+			children = (
+				54392B1C16AFD8EF0041666E /* JustepAppCapture.h */,
+				54392B1D16AFD8EF0041666E /* JustepAppCapture.m */,
+			);
+			name = JustepAppCapture;
+			sourceTree = "<group>";
+		};
+		54AD1DDB16AFB06700AAA942 /* JustepAppCamera */ = {
+			isa = PBXGroup;
+			children = (
+				54392B1916AFD8C60041666E /* JustepAppCamera.h */,
+				54392B1A16AFD8C60041666E /* JustepAppCamera.m */,
+			);
+			name = JustepAppCamera;
+			sourceTree = "<group>";
+		};
+		54AD1DDC16AFB07400AAA942 /* JustepAppContact */ = {
+			isa = PBXGroup;
+			children = (
+				54392B1316AFD8B40041666E /* JustepAppContact.h */,
+				54392B1416AFD8B40041666E /* JustepAppContact.m */,
+				54392B1516AFD8B40041666E /* JustepAppContacts.h */,
+				54392B1616AFD8B40041666E /* JustepAppContacts.m */,
+			);
+			name = JustepAppContact;
+			sourceTree = "<group>";
+		};
+		54AD1DDD16AFB09000AAA942 /* JustepAppFile */ = {
+			isa = PBXGroup;
+			children = (
+				54392B1016AFD89D0041666E /* JustepAppFile.h */,
+				54392B1116AFD89D0041666E /* JustepAppFile.m */,
+			);
+			name = JustepAppFile;
+			sourceTree = "<group>";
+		};
+		54AD1DDE16AFB0BC00AAA942 /* JustepAppGeolocation */ = {
+			isa = PBXGroup;
+			children = (
+				54392B0D16AFD8800041666E /* JustepAppGeolocation.h */,
+				54392B0E16AFD8800041666E /* JustepAppGeolocation.m */,
+			);
+			name = JustepAppGeolocation;
+			sourceTree = "<group>";
+		};
+		54AD1DDF16AFB0CB00AAA942 /* JustepAppSound */ = {
+			isa = PBXGroup;
+			children = (
+				54392B0A16AFD8620041666E /* JustepAppSound.h */,
+				54392B0B16AFD8620041666E /* JustepAppSound.m */,
+			);
+			name = JustepAppSound;
+			sourceTree = "<group>";
+		};
+		54CDD0C416031A8F003ECFF7 /* JustepFinder */ = {
+			isa = PBXGroup;
+			children = (
+				54392B5816AFDAE40041666E /* JustepFile.h */,
+				54392B5916AFDAE40041666E /* JustepFile.m */,
+				54392B5A16AFDAE40041666E /* JustepFileDetailController.h */,
+				54392B5B16AFDAE40041666E /* JustepFileDetailController.m */,
+				54392B5C16AFDAE40041666E /* JustepFinderController.h */,
+				54392B5D16AFDAE40041666E /* JustepFinderController.m */,
+			);
+			name = JustepFinder;
+			sourceTree = "<group>";
+		};
+		54CDD0D91608242E003ECFF7 /* JustepUploader */ = {
+			isa = PBXGroup;
+			children = (
+				54392B6116AFDB010041666E /* JustepUploader.h */,
+				54392B6216AFDB010041666E /* JustepUploader.m */,
+				54392B6316AFDB010041666E /* JustepUploader.xib */,
+				54392B6416AFDB010041666E /* JustepUploader5.xib */,
+			);
+			name = JustepUploader;
+			sourceTree = "<group>";
+		};
+		54CDD0DB16082456003ECFF7 /* JustepAttachmentBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				54392B6816AFDB1C0041666E /* JustepAttachmentController.h */,
+				54392B6916AFDB1C0041666E /* JustepAttachmentController.m */,
+				54392B6A16AFDB1C0041666E /* JustepAttachmentController.xib */,
+				54392B6B16AFDB1C0041666E /* JustepAttachmentController5.xib */,
+			);
+			name = JustepAttachmentBrowser;
+			sourceTree = "<group>";
+		};
+		54CDD0DC1608248C003ECFF7 /* JustepAppEvent */ = {
+			isa = PBXGroup;
+			children = (
+				54392B4016AFDA340041666E /* JustepAppEvent.h */,
+				54392B4116AFDA340041666E /* JustepAppEvent.m */,
+			);
+			name = JustepAppEvent;
+			sourceTree = "<group>";
+		};
+		54CDD0DD160824A2003ECFF7 /* JustepSettingController */ = {
+			isa = PBXGroup;
+			children = (
+				54392B5116AFDAC30041666E /* JustepSettingController.h */,
+				54392B5216AFDAC30041666E /* JustepSettingController.m */,
+				54392B5316AFDAC30041666E /* JustepSettingController.xib */,
+				54392B5416AFDAC30041666E /* JustepSettingController5.xib */,
+			);
+			name = JustepSettingController;
+			sourceTree = "<group>";
+		};
+		54CDD0DE160824D7003ECFF7 /* JustepDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				54392B6F16AFDB2F0041666E /* JustepDownloadManager.h */,
+				54392B7016AFDB2F0041666E /* JustepDownloadManager.m */,
+			);
+			name = JustepDownloadManager;
+			sourceTree = "<group>";
+		};
+		54E860B916A7FCDF00D6FE32 /* Extends */ = {
+			isa = PBXGroup;
+			children = (
+				540376A5169A6651008A708D /* JustepWebView.h */,
+				540376A6169A6651008A708D /* JustepWebView.m */,
+			);
+			name = Extends;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54398E6A157DDE8F0071274F /* JustepX5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54398E89157DDE8F0071274F /* Build configuration list for PBXNativeTarget "JustepX5" */;
+			buildPhases = (
+				54398E67157DDE8F0071274F /* Sources */,
+				54398E68157DDE8F0071274F /* Frameworks */,
+				54398E69157DDE8F0071274F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JustepX5;
+			productName = JustepX5;
+			productReference = 54398E6B157DDE8F0071274F /* JustepX5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54398E62157DDE8F0071274F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 54398E65157DDE8F0071274F /* Build configuration list for PBXProject "JustepX5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 54398E60157DDE8F0071274F;
+			productRefGroup = 54398E6C157DDE8F0071274F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54398E6A157DDE8F0071274F /* JustepX5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54398E69157DDE8F0071274F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E860B516A6A52200D6FE32 /* JustepApp.js in Resources */,
+				548F89C8158094D90034CBFD /* Settings.bundle in Resources */,
+				54037665169A63D3008A708D /* Default-568h@2x.png in Resources */,
+				54037666169A63D3008A708D /* Default.png in Resources */,
+				54037667169A63D3008A708D /* Default@2x.png in Resources */,
+				5403767A169A642F008A708D /* 320-480.png in Resources */,
+				5403767B169A642F008A708D /* 640-960.png in Resources */,
+				5403767C169A642F008A708D /* 640-1136.png in Resources */,
+				540376AE169A6651008A708D /* status-bar-pattern-black.jpg in Resources */,
+				540376AF169A6651008A708D /* status-bar-pattern-black@2x.jpg in Resources */,
+				540376B0169A6651008A708D /* status-bar-pattern-default.jpg in Resources */,
+				540376B1169A6651008A708D /* status-bar-pattern-default@2x.jpg in Resources */,
+				540376B2169A6651008A708D /* status-bar-progress.png in Resources */,
+				540376B3169A6651008A708D /* status-bar-progress@2x.png in Resources */,
+				540376C1169A6BDC008A708D /* Logo.png in Resources */,
+				540376C2169A6BDC008A708D /* ShowToolbar.png in Resources */,
+				540376C8169A7004008A708D /* ButtonDown.png in Resources */,
+				540376C9169A7004008A708D /* ButtonUp.png in Resources */,
+				540376CA169A7004008A708D /* Cancel.png in Resources */,
+				54392B4816AFDA500041666E /* JustepRootController.xib in Resources */,
+				54392B4916AFDA500041666E /* JustepRootController5.xib in Resources */,
+				54392B4F16AFDA7B0041666E /* JustepViewController.xib in Resources */,
+				54392B5016AFDA7B0041666E /* JustepViewController5.xib in Resources */,
+				54392B5616AFDAC30041666E /* JustepSettingController.xib in Resources */,
+				54392B5716AFDAC30041666E /* JustepSettingController5.xib in Resources */,
+				54392B6616AFDB010041666E /* JustepUploader.xib in Resources */,
+				54392B6716AFDB010041666E /* JustepUploader5.xib in Resources */,
+				54392B6D16AFDB1C0041666E /* JustepAttachmentController.xib in Resources */,
+				54392B6E16AFDB1C0041666E /* JustepAttachmentController5.xib in Resources */,
+				54392BFF16B112EF0041666E /* beep.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54398E67157DDE8F0071274F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54392B8C16AFE2910041666E /* main.m in Sources */,
+				54392B8D16AFE2910041666E /* JustepAppDelegate.h in Sources */,
+				54392B8E16AFE2910041666E /* JustepAppDelegate.m in Sources */,
+				54392B9916AFE2910041666E /* JustepAppSound.h in Sources */,
+				54392B9A16AFE2910041666E /* JustepAppSound.m in Sources */,
+				54392B9B16AFE2910041666E /* JustepAppGeolocation.h in Sources */,
+				54392B9C16AFE2910041666E /* JustepAppGeolocation.m in Sources */,
+				54392B9D16AFE2910041666E /* JustepAppFile.h in Sources */,
+				54392B9E16AFE2910041666E /* JustepAppFile.m in Sources */,
+				54392B9F16AFE2910041666E /* JustepAppContact.h in Sources */,
+				54392BA016AFE2910041666E /* JustepAppContact.m in Sources */,
+				54392BA116AFE2910041666E /* JustepAppContacts.h in Sources */,
+				54392BA216AFE2910041666E /* JustepAppContacts.m in Sources */,
+				54392BA316AFE2910041666E /* JustepAppCamera.h in Sources */,
+				54392BA416AFE2910041666E /* JustepAppCamera.m in Sources */,
+				54392BA516AFE2910041666E /* JustepAppCapture.h in Sources */,
+				54392BA616AFE2910041666E /* JustepAppCapture.m in Sources */,
+				54392BA716AFE2910041666E /* JustepAppCommandCallback.h in Sources */,
+				54392BA816AFE2910041666E /* JustepAppCommandCallback.m in Sources */,
+				54392BA916AFE2910041666E /* JustepAppBattery.h in Sources */,
+				54392BAA16AFE2910041666E /* JustepAppBattery.m in Sources */,
+				54392BAB16AFE2910041666E /* JustepAppAccelerometer.h in Sources */,
+				54392BAC16AFE2910041666E /* JustepAppAccelerometer.m in Sources */,
+				54392BAD16AFE2910041666E /* JustepAppPlugin.h in Sources */,
+				54392BAE16AFE2910041666E /* JustepAppPlugin.m in Sources */,
+				54392BAF16AFE2910041666E /* JustepAppDevice.h in Sources */,
+				54392BB016AFE2910041666E /* JustepAppDevice.m in Sources */,
+				54392BB116AFE2910041666E /* JustepAppLogger.h in Sources */,
+				54392BB216AFE2910041666E /* JustepAppLogger.m in Sources */,
+				54392BB316AFE2910041666E /* JustepAppMap.h in Sources */,
+				54392BB416AFE2910041666E /* JustepAppMap.m in Sources */,
+				54392BB716AFE2910041666E /* JustepAppNetwork.h in Sources */,
+				54392BB816AFE2910041666E /* JustepAppNetwork.m in Sources */,
+				54392BB916AFE2910041666E /* JustepAppNotification.h in Sources */,
+				54392BBA16AFE2910041666E /* JustepAppNotification.m in Sources */,
+				54392BBB16AFE2910041666E /* JustepAppCommand.h in Sources */,
+				54392BBC16AFE2910041666E /* JustepAppCommand.m in Sources */,
+				54392BBD16AFE2910041666E /* JustepAppEvent.h in Sources */,
+				54392BBE16AFE2910041666E /* JustepAppEvent.m in Sources */,
+				54392BBF16AFE2910041666E /* JustepRootController.h in Sources */,
+				54392BC016AFE2910041666E /* JustepRootController.m in Sources */,
+				54392BC116AFE2910041666E /* JustepRootController.xib in Sources */,
+				54392BC216AFE2910041666E /* JustepRootController5.xib in Sources */,
+				54392BC316AFE2910041666E /* JustepViewController.h in Sources */,
+				54392BC416AFE2910041666E /* JustepViewController.m in Sources */,
+				54392BC516AFE2910041666E /* JustepViewController.xib in Sources */,
+				54392BC616AFE2910041666E /* JustepViewController5.xib in Sources */,
+				54392BC716AFE2910041666E /* JustepApp.js in Sources */,
+				54392BC816AFE2910041666E /* JustepX5-Prefix.pch in Sources */,
+				54392BC916AFE2910041666E /* JustepSettingController.h in Sources */,
+				54392BCA16AFE2910041666E /* JustepSettingController.m in Sources */,
+				54392BCB16AFE2910041666E /* JustepSettingController.xib in Sources */,
+				54392BCC16AFE2910041666E /* JustepSettingController5.xib in Sources */,
+				54392BCD16AFE2910041666E /* JustepFile.h in Sources */,
+				54392BCE16AFE2910041666E /* JustepFile.m in Sources */,
+				54392BCF16AFE2910041666E /* JustepFileDetailController.h in Sources */,
+				54392BD016AFE2910041666E /* JustepFileDetailController.m in Sources */,
+				54392BD116AFE2910041666E /* JustepFinderController.h in Sources */,
+				54392BD216AFE2910041666E /* JustepFinderController.m in Sources */,
+				54392BD316AFE2910041666E /* JustepUploader.h in Sources */,
+				54392BD416AFE2910041666E /* JustepUploader.m in Sources */,
+				54392BD516AFE2910041666E /* JustepUploader.xib in Sources */,
+				54392BD616AFE2910041666E /* JustepUploader5.xib in Sources */,
+				54392BD716AFE2910041666E /* JustepAttachmentController.h in Sources */,
+				54392BD816AFE2910041666E /* JustepAttachmentController.m in Sources */,
+				54392BD916AFE2910041666E /* JustepAttachmentController.xib in Sources */,
+				54392BDA16AFE2910041666E /* JustepAttachmentController5.xib in Sources */,
+				54392BDB16AFE2910041666E /* JustepDownloadManager.h in Sources */,
+				54392BDC16AFE2910041666E /* JustepDownloadManager.m in Sources */,
+				54392BDD16AFE2920041666E /* BWStatusBarOverlay.h in Sources */,
+				54392BDE16AFE2920041666E /* BWStatusBarOverlay.m in Sources */,
+				54392BDF16AFE2920041666E /* status-bar-pattern-black.jpg in Sources */,
+				54392BE016AFE2920041666E /* status-bar-pattern-black@2x.jpg in Sources */,
+				54392BE116AFE2920041666E /* status-bar-pattern-default.jpg in Sources */,
+				54392BE216AFE2920041666E /* status-bar-pattern-default@2x.jpg in Sources */,
+				54392BE316AFE2920041666E /* status-bar-progress.png in Sources */,
+				54392BE416AFE2920041666E /* status-bar-progress@2x.png in Sources */,
+				54392BE516AFE2920041666E /* JSONKit.h in Sources */,
+				54392BE616AFE2920041666E /* JSONKit.m in Sources */,
+				54392BE716AFE2920041666E /* JSON.h in Sources */,
+				54392BE816AFE2920041666E /* NSObject+SBJSON.h in Sources */,
+				54392BE916AFE2920041666E /* NSObject+SBJSON.m in Sources */,
+				54392BEA16AFE2920041666E /* NSString+SBJSON.h in Sources */,
+				54392BEB16AFE2920041666E /* NSString+SBJSON.m in Sources */,
+				54392BEC16AFE2920041666E /* SBJsonBase.h in Sources */,
+				54392BED16AFE2920041666E /* SBJsonBase.m in Sources */,
+				54392BEE16AFE2920041666E /* SBJsonParser.h in Sources */,
+				54392BEF16AFE2920041666E /* SBJsonParser.m in Sources */,
+				54392BF016AFE2920041666E /* SBJsonWriter.h in Sources */,
+				54392BF116AFE2920041666E /* SBJsonWriter.m in Sources */,
+				54392BF216AFE2920041666E /* JustepWebView.h in Sources */,
+				54392BF316AFE2920041666E /* JustepWebView.m in Sources */,
+				54392BF416AFE2920041666E /* MBProgressHUD.h in Sources */,
+				54392BF516AFE2920041666E /* MBProgressHUD.m in Sources */,
+				54392BFD16AFE5E80041666E /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		54398E87157DDE8F0071274F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: yu xin huang (72T2FCK657)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yu xin huang (72T2FCK657)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "3E0EFF8F-AE9D-41A0-B080-681A619A9B62";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3E0EFF8F-AE9D-41A0-B080-681A619A9B62";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		54398E88157DDE8F0071274F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: yu xin huang (72T2FCK657)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yu xin huang (72T2FCK657)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "3E0EFF8F-AE9D-41A0-B080-681A619A9B62";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3E0EFF8F-AE9D-41A0-B080-681A619A9B62";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54398E8A157DDE8F0071274F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: yu xin huang (72T2FCK657)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yu xin huang (72T2FCK657)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../..\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JustepX5/JustepX5-Prefix.pch";
+				INFOPLIST_FILE = "JustepX5/JustepX5-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+					"\"$(SRCROOT)/../../../lib\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/lib/Justep\"",
+					"\"$(SRCROOT)/Libraries/Justep\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3E0EFF8F-AE9D-41A0-B080-681A619A9B62";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3E0EFF8F-AE9D-41A0-B080-681A619A9B62";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		54398E8B157DDE8F0071274F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: yu xin huang (72T2FCK657)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yu xin huang (72T2FCK657)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../..\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JustepX5/JustepX5-Prefix.pch";
+				INFOPLIST_FILE = "JustepX5/JustepX5-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+					"\"$(SRCROOT)/../../../lib\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/lib/Justep\"",
+					"\"$(SRCROOT)/Libraries/Justep\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3E0EFF8F-AE9D-41A0-B080-681A619A9B62";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3E0EFF8F-AE9D-41A0-B080-681A619A9B62";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54398E65157DDE8F0071274F /* Build configuration list for PBXProject "JustepX5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54398E87157DDE8F0071274F /* Debug */,
+				54398E88157DDE8F0071274F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54398E89157DDE8F0071274F /* Build configuration list for PBXNativeTarget "JustepX5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54398E8A157DDE8F0071274F /* Debug */,
+				54398E8B157DDE8F0071274F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54398E62157DDE8F0071274F /* Project object */;
+}

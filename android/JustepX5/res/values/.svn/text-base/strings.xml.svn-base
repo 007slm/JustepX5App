@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">X5</string>
+
+    <style name="CustomWindowTitleBackground"></style>
+
+    <style name="test" parent="android:Theme">
+        <item name="android:windowTitleSize">40dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+    </style>
+
+    <string name="setting">设置</string>
+    <string name="sysTitle">X5</string>
+    <string name="urllabel">登录地址</string>
+    <string name="refresh">刷新</string>
+
+    <string name="ok">是</string>
+    <string name="no">否</string>
+    <string name="save">保存</string>
+    <string name="close">取消</string>
+    <string name="exit">退出</string>
+    <string name="settingDlgTitle">设置登录信息</string>
+    <string name="quitTip">是否要退出系统？</string>
+    <string name="loadingTip">系统正在加载，请稍候！</string>
+    
+    <string name="main_home">首页</string>
+    <string name="main_news">待办</string>
+    <string name="main_my_info">我的收藏</string>
+    <string name="menu_search">搜索</string>
+    <string name="more">更多</string>
+    <string name="fileNotFound">找不到网页</string>
+</resources>

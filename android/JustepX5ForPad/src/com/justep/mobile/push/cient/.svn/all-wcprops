@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/X5/!svn/ver/20405/X5-SOURCE/ui/mobile-app/android/JustepX5/src/com/justep/mobile/push/cient
+END
+ConnectivityReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/X5/!svn/ver/20405/X5-SOURCE/ui/mobile-app/android/JustepX5/src/com/justep/mobile/push/cient/ConnectivityReceiver.java
+END
+NotificationService.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/X5/!svn/ver/20405/X5-SOURCE/ui/mobile-app/android/JustepX5/src/com/justep/mobile/push/cient/NotificationService.java
+END
+NotificationDetailsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/X5/!svn/ver/20405/X5-SOURCE/ui/mobile-app/android/JustepX5/src/com/justep/mobile/push/cient/NotificationDetailsActivity.java
+END
+NotificationReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/X5/!svn/ver/20405/X5-SOURCE/ui/mobile-app/android/JustepX5/src/com/justep/mobile/push/cient/NotificationReceiver.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/X5/!svn/ver/20405/X5-SOURCE/ui/mobile-app/android/JustepX5/src/com/justep/mobile/push/cient/Constants.java
+END
+ReconnectionThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/X5/!svn/ver/20405/X5-SOURCE/ui/mobile-app/android/JustepX5/src/com/justep/mobile/push/cient/ReconnectionThread.java
+END
+InvalidFormatException.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/X5/!svn/ver/20405/X5-SOURCE/ui/mobile-app/android/JustepX5/src/com/justep/mobile/push/cient/InvalidFormatException.java
+END
+Notifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/X5/!svn/ver/20405/X5-SOURCE/ui/mobile-app/android/JustepX5/src/com/justep/mobile/push/cient/Notifier.java
+END
+LogUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/X5/!svn/ver/20405/X5-SOURCE/ui/mobile-app/android/JustepX5/src/com/justep/mobile/push/cient/LogUtil.java
+END
+XmppManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/X5/!svn/ver/20405/X5-SOURCE/ui/mobile-app/android/JustepX5/src/com/justep/mobile/push/cient/XmppManager.java
+END
+NotificationIQ.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/X5/!svn/ver/20405/X5-SOURCE/ui/mobile-app/android/JustepX5/src/com/justep/mobile/push/cient/NotificationIQ.java
+END
+NotificationSettingsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/X5/!svn/ver/20405/X5-SOURCE/ui/mobile-app/android/JustepX5/src/com/justep/mobile/push/cient/NotificationSettingsActivity.java
+END
+NotificationPacketListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/X5/!svn/ver/20405/X5-SOURCE/ui/mobile-app/android/JustepX5/src/com/justep/mobile/push/cient/NotificationPacketListener.java
+END
+PhoneStateChangeListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/X5/!svn/ver/20405/X5-SOURCE/ui/mobile-app/android/JustepX5/src/com/justep/mobile/push/cient/PhoneStateChangeListener.java
+END
+PersistentConnectionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/X5/!svn/ver/20405/X5-SOURCE/ui/mobile-app/android/JustepX5/src/com/justep/mobile/push/cient/PersistentConnectionListener.java
+END
+ServiceManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/X5/!svn/ver/20405/X5-SOURCE/ui/mobile-app/android/JustepX5/src/com/justep/mobile/push/cient/ServiceManager.java
+END
+NotificationIQProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/X5/!svn/ver/20405/X5-SOURCE/ui/mobile-app/android/JustepX5/src/com/justep/mobile/push/cient/NotificationIQProvider.java
+END

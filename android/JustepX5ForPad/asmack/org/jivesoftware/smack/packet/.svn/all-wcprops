@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/packet
+END
+Presence.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/packet/Presence.java
+END
+PacketExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/packet/PacketExtension.java
+END
+StreamError.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/packet/StreamError.java
+END
+RosterPacket.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/packet/RosterPacket.java
+END
+Packet.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/packet/Packet.java
+END
+IQ.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/packet/IQ.java
+END
+DefaultPacketExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/packet/DefaultPacketExtension.java
+END
+Registration.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/packet/Registration.java
+END
+Bind.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/packet/Bind.java
+END
+Privacy.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/packet/Privacy.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/packet/package.html
+END
+Authentication.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/packet/Authentication.java
+END
+Session.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/packet/Session.java
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/packet/Message.java
+END
+PrivacyItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/packet/PrivacyItem.java
+END
+XMPPError.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/jivesoftware/smack/packet/XMPPError.java
+END

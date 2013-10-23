@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "(null):(null)">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.attachWebView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[JustepUploader textFieldShouldReturn:]:JustepUploader.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[JustepFinderController tableView:didSelectRowAtIndexPath:]:JustepFinderController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "documentDir">
+            </PersistentString>
+            <PersistentString
+               value = "self.documentDir">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SBJsonWriter appendDictionary:into:]:SBJsonWriter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[JustepViewController loadSystem]:JustepViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[response statusCode]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NSObject(PerformSelector) performSelector:withParams:withOptions:]:NSObject+PerformSelector.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "paramCount">
+            </PersistentString>
+            <PersistentString
+               value = "[signature methodReturnLength]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[JustepViewController getCommandInstance:]:JustepViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[JustepViewController webViewDidFinishLoad:]:JustepViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "webView.request.URL.absoluteString">
+            </PersistentString>
+            <PersistentString
+               value = "[ rangeOfString:@&quot;index.w&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[JustepViewController buildRequest]:JustepViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(__NSCFString *)toolBarUrlStr">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[JustepFinderController viewDidLoad]:JustepFinderController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "documentDir">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[JustepViewController handleRemoteNotification]:JustepViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[contentWebView stringByEvaluatingJavaScriptFromString:@&quot;alert(&apos;11111&apos;)&quot;];">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NSObject(NSObject_SBJSON) JSONFragment]:NSObject+SBJSON.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[JustepViewController webView:shouldStartLoadWithRequest:navigationType:]:JustepViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[JustepViewController viewDidLoad]:JustepViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.settingError">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[JustepAttachmentController checkWebViewState]:JustepAttachmentController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.attachWebView.loading">
+            </PersistentString>
+            <PersistentString
+               value = "HUD">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[JustepViewController openSettingDlg]:JustepViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[JustepViewController webViewDidStartLoad:]:JustepViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[theWebView stringByEvaluatingJavaScriptFromString:@&quot;JSON.stringify(DeviceInfo)&quot;];">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[JustepViewController execute:]:JustepViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[command.options count]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:main.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[JustepViewController backHomePage:]:JustepViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[JustepUploader imagePickerController:didFinishPickingMediaWithInfo:]:JustepUploader.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "!([self.fileName rangeOfString:@&quot;.&quot;].length &gt; 0)">
+            </PersistentString>
+            <PersistentString
+               value = "[self.fileName rangeOfString:@&quot;.&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "self.fileName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/apache/harmony/javax/security/auth/login
+END
+CredentialNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/apache/harmony/javax/security/auth/login/CredentialNotFoundException.java
+END
+Configuration.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/apache/harmony/javax/security/auth/login/Configuration.java
+END
+LoginException.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/apache/harmony/javax/security/auth/login/LoginException.java
+END
+AccountNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/apache/harmony/javax/security/auth/login/AccountNotFoundException.java
+END
+CredentialException.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/apache/harmony/javax/security/auth/login/CredentialException.java
+END
+AppConfigurationEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/apache/harmony/javax/security/auth/login/AppConfigurationEntry.java
+END
+CredentialExpiredException.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/apache/harmony/javax/security/auth/login/CredentialExpiredException.java
+END
+AccountException.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/apache/harmony/javax/security/auth/login/AccountException.java
+END
+AccountExpiredException.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/apache/harmony/javax/security/auth/login/AccountExpiredException.java
+END
+FailedLoginException.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/apache/harmony/javax/security/auth/login/FailedLoginException.java
+END
+AccountLockedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/apache/harmony/javax/security/auth/login/AccountLockedException.java
+END
+LoginContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/X5/!svn/ver/19256/X5-SOURCE/ui/mobile-app/android/JustepX5/asmack/org/apache/harmony/javax/security/auth/login/LoginContext.java
+END
